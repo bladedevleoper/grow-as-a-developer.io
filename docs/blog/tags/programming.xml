@@ -3,11 +3,11 @@
     <title><![CDATA[Grow As A Developer]]></title>
     <link href="https://bladedevleoper.github.io/grow-as-a-developer.io//blog/tags/programming.xml" rel="self"/>
     <link href="https://bladedevleoper.github.io/grow-as-a-developer.io//"/>
-    <updated>2021-03-29T21:48:31+00:00</updated>
+    <updated>2021-03-29T23:14:25+00:00</updated>
     <id>https://bladedevleoper.github.io/grow-as-a-developer.io//</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
-            <title type="html"><![CDATA[What is GoLang?]]></title>
+            <title type="html"><![CDATA[What is Golang?]]></title>
             <link href="https://bladedevleoper.github.io/grow-as-a-developer.io//blog/2021/03/25/what-is-golang/"/>
             <updated>2021-03-25T00:00:00+00:00</updated>
             <id>https://bladedevleoper.github.io/grow-as-a-developer.io//blog/2021/03/25/what-is-golang/</id>
@@ -17,13 +17,51 @@
 
 <p><img src="https://bladedevleoper.github.io/grow-as-a-developer.io/assets/images/go-gopher.jpg" height="239" width="580" title="Go gopher" alt="image of the Go Gopher"></p>
 
-<h1 id="what-is-golang%3F">What Is GoLang?</h1>
+<h1 id="what-is-golang%3F">What Is Golang?</h1>
 
 <p>Go or as others would say Golang, is a an open source programming language that allows to build reliable and efficient software. Go was created by a team of developers at Google. They are <a href="https://en.wikipedia.org/wiki/Robert_Griesemer">Robert Griesemer</a>, <a href="https://en.wikipedia.org/wiki/Rob_Pike">Rob Pike</a> and <a href="https://en.wikipedia.org/wiki/Ken_Thompson">Ken Thompson</a>. Golang is a staticically and a strongly typed language</p>
 
-<p>--Go appeared in 2009 and its current version is 1.16.2.</p>
+<h1 id="what-can-golang-be-used-for%3F">What can Golang be used for?</h1>
 
-<p>Resources
+<p>Golang can be used in many different ways:</p>
+
+<ul>
+    <li>
+        Build Web Applications
+    </li>
+    <li>
+        CLI Applications
+    </li>
+    <li>
+        Automate tasks on the server
+    </li>
+</ul>
+
+<p>Like Python and PHP, Go too is a <a href="https://en.wikipedia.org/wiki/General-purpose_programming_language">general purpose language</a> which means it can be used in a wide variety of development tasks.</p>
+
+<h1 id="syntax-of-go">Syntax of Go</h1>
+
+<h1 id="where-can-i-learn-golang%3F">Where Can I Learn Golang?</h1>
+
+<p>There are a number of resources to start to learn Go:</p>
+
+<h6>Youtube</h6>
+
+<p>I will always search Youtube, but who doesn't right? I found the [freecodecamp.org](https://www.freecodecamp.org/) [youtube channel](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ) to be a really good starting point. I had found a [7 hour Golang video](https://youtu.be/YS4e4q9oBaU) created by Michael Van Sickle. For a Go beginner, I found this very informative, starting from the basic syntax and how to set your local environment up.</p>
+
+<p>Please note, as of this videos creation the version of Go is at 1.14 , there is a newer version of Go which is 1.16 to download [follow](https://golang.org/dl/) and pick your OS</p>
+
+<p>
+    Since Go 1.16 is released (February 2021), we can start to use go.mod, which allow is Go's dependency management. An following a project setup in the video, we do not have to use all the directories. I would advise to look at the following article on golang.org on how to [organise your code](https://golang.org/doc/code#Organization)
+</p>
+
+<h6>Go Documentation</h6>
+
+<p>
+    The [Golang.org](https://golang.org/doc/tutorial/getting-started) is another nice place to get started, where it takes you on a step by step through the Go language. If you want to pick up some extra reading on a particular section. 
+</p>
+
+<p>More Resources
 https://en.wikipedia.org/wiki/Go_(programming_language)</p>
 ]]></content>
         </entry>
