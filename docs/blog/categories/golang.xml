@@ -3,7 +3,7 @@
     <title><![CDATA[Grow As A Developer]]></title>
     <link href="https://bladedevleoper.github.io/grow-as-a-developer.io//blog/categories/Golang.xml" rel="self"/>
     <link href="https://bladedevleoper.github.io/grow-as-a-developer.io//"/>
-    <updated>2021-03-29T23:26:43+00:00</updated>
+    <updated>2021-03-29T23:27:29+00:00</updated>
     <id>https://bladedevleoper.github.io/grow-as-a-developer.io//</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
@@ -52,7 +52,7 @@
 
 <p>I will always search Youtube, but who doesn't right? I found the <a href="https://www.freecodecamp.org/">freecodecamp.org</a> <a href="https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ">youtube channel</a> to be a really good starting point. I had found a <a href="https://youtu.be/YS4e4q9oBaU">7 hour Golang video</a> created by Michael Van Sickle. For a Go beginner, I found this very informative, starting from the basic syntax and how to set your local environment up.</p>
 
-<p>Please note, as of this videos creation the version of Go is at 1.14 , there is a newer version of Go which is 1.16 to download <a href="https://golang.org/dl/">follow</a> and pick your OS</p>
+<p><strong>Please note</strong>, as of this videos creation the version of Go is at 1.14 , there is a newer version of Go which is 1.16 to download <a href="https://golang.org/dl/">follow</a> and pick your OS</p>
 
 <p>Since Go 1.16 is released (February 2021), we can start to use go.mod, which allow is Go's dependency management. An following a project setup in the video, we do not have to use all the directories. I would advise to look at the following article on golang.org on how to <a href="https://golang.org/doc/code#Organization">organise your code</a></p>
 
