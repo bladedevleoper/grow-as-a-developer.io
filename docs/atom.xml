@@ -3,7 +3,7 @@
     <title><![CDATA[Grow As A Developer]]></title>
     <link href="https://bladedevleoper.github.io/grow-as-a-developer.io//atom.xml" rel="self"/>
     <link href="https://bladedevleoper.github.io/grow-as-a-developer.io//"/>
-    <updated>2021-03-29T21:24:44+00:00</updated>
+    <updated>2021-03-29T21:39:34+00:00</updated>
     <id>https://bladedevleoper.github.io/grow-as-a-developer.io//</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
@@ -25,47 +25,6 @@
 
 <p>Resources
 https://en.wikipedia.org/wiki/Go_(programming_language)</p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[And Then There Was Textile Support]]></title>
-            <link href="https://bladedevleoper.github.io/grow-as-a-developer.io//blog/2012/11/26/and-then-there-was-textile-support/"/>
-            <updated>2012-11-26T00:00:00+00:00</updated>
-            <id>https://bladedevleoper.github.io/grow-as-a-developer.io//blog/2012/11/26/and-then-there-was-textile-support/</id>
-            <content type="html"><![CDATA[<p><a href="https://github.com/netcarver/textile">Textile</a> support was added on November 26th, 2012. Markdown is great, but so is choice. More converters for all!</p>
-
-<p>In honor of this milestone, this post is written in <strong>Textile</strong>.</p>]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Balrog]]></title>
-            <link href="https://bladedevleoper.github.io/grow-as-a-developer.io//blog/2012/10/16/balrog/"/>
-            <updated>2012-10-16T00:00:00+00:00</updated>
-            <id>https://bladedevleoper.github.io/grow-as-a-developer.io//blog/2012/10/16/balrog/</id>
-            <content type="html"><![CDATA[<p>Found out about <a href="http://github.com/igorw/balrog">Balrog</a> today! It looks
-like a really nice micro static site generator. Maybe Sculpin and Balrog
-can be friends?</p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Symfony Live Hacking Day!]]></title>
-            <link href="https://bladedevleoper.github.io/grow-as-a-developer.io//blog/2012/09/29/symfony-live-hacking-day/"/>
-            <updated>2012-09-29T00:00:00+00:00</updated>
-            <id>https://bladedevleoper.github.io/grow-as-a-developer.io//blog/2012/09/29/symfony-live-hacking-day/</id>
-            <content type="html"><![CDATA[<p>Fun times at the Symfony Live San Francisco 2012 Hacking Day! Code
-was hacked and pizza was had. Some pics of the conference are
-available on the <a href="https://www.facebook.com/media/set/?set=a.450514941665306.112810.129739647076172">Sensio Labs Facebook page</a>.</p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Happy Birthday Sculpin!]]></title>
-            <link href="https://bladedevleoper.github.io/grow-as-a-developer.io//blog/2011/12/20/happy-birthday-sculpin/"/>
-            <updated>2011-12-20T00:00:00+00:00</updated>
-            <id>https://bladedevleoper.github.io/grow-as-a-developer.io//blog/2011/12/20/happy-birthday-sculpin/</id>
-            <content type="html"><![CDATA[<p>The first commit to the Sculpin repository was made on December 20th, 2011.
-What a trip since then!</p>
-
-<p>Sculpin has always been a big fan of <a href="http://daringfireball.net/projects/markdown/">Markdown</a>. So this post was
-written in Markdown. :)</p>
 ]]></content>
         </entry>
     </feed>
