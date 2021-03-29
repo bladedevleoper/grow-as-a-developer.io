@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[Grow As A Developer]]></title>
+    <link href="/atom.xml" rel="self"/>
+    <link href="/"/>
+    <updated>2021-03-29T20:03:07+00:00</updated>
+    <id>/</id>
+        <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[What is GoLang?]]></title>
+            <link href="/blog/2021/03/25/what-is-golang/"/>
+            <updated>2021-03-25T00:00:00+00:00</updated>
+            <id>/blog/2021/03/25/what-is-golang/</id>
+            <content type="html"><![CDATA[<h1 id="hello-golang%2C-nice-to-meet-you%2C-i%27m-james">Hello Golang, nice to meet you, I'm James</h1>
+
+<p>So I have been meaning to write a blog for sometime, and I have been programming with PHP, Javascript coming up to 2 years. So I've been looking at learning a new language, and always wondered what it would be like to learn Golang.</p>
+
+<p><img src="../assets/images/go-gopher.jpg" height="239" width="580" title="Go gopher" alt="image of the Go Gopher"></p>
+
+<h1 id="what-is-golang%3F">What Is GoLang?</h1>
+
+<p>Go or as others would say Golang, is a an open source programming language that allows to build reliable and efficient software. Go was created by a team of developers at Google. They are <a href="https://en.wikipedia.org/wiki/Robert_Griesemer">Robert Griesemer</a>, <a href="https://en.wikipedia.org/wiki/Rob_Pike">Rob Pike</a> and <a href="https://en.wikipedia.org/wiki/Ken_Thompson">Ken Thompson</a>. Golang is a staticically and a strongly typed language</p>
+
+<p>--Go appeared in 2009 and its current version is 1.16.2.</p>
+
+<p>Resources
+https://en.wikipedia.org/wiki/Go_(programming_language)</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[And Then There Was Textile Support]]></title>
+            <link href="/blog/2012/11/26/and-then-there-was-textile-support/"/>
+            <updated>2012-11-26T00:00:00+00:00</updated>
+            <id>/blog/2012/11/26/and-then-there-was-textile-support/</id>
+            <content type="html"><![CDATA[<p><a href="https://github.com/netcarver/textile">Textile</a> support was added on November 26th, 2012. Markdown is great, but so is choice. More converters for all!</p>
+
+<p>In honor of this milestone, this post is written in <strong>Textile</strong>.</p>]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[Balrog]]></title>
+            <link href="/blog/2012/10/16/balrog/"/>
+            <updated>2012-10-16T00:00:00+00:00</updated>
+            <id>/blog/2012/10/16/balrog/</id>
+            <content type="html"><![CDATA[<p>Found out about <a href="http://github.com/igorw/balrog">Balrog</a> today! It looks
+like a really nice micro static site generator. Maybe Sculpin and Balrog
+can be friends?</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[Symfony Live Hacking Day!]]></title>
+            <link href="/blog/2012/09/29/symfony-live-hacking-day/"/>
+            <updated>2012-09-29T00:00:00+00:00</updated>
+            <id>/blog/2012/09/29/symfony-live-hacking-day/</id>
+            <content type="html"><![CDATA[<p>Fun times at the Symfony Live San Francisco 2012 Hacking Day! Code
+was hacked and pizza was had. Some pics of the conference are
+available on the <a href="https://www.facebook.com/media/set/?set=a.450514941665306.112810.129739647076172">Sensio Labs Facebook page</a>.</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[Happy Birthday Sculpin!]]></title>
+            <link href="/blog/2011/12/20/happy-birthday-sculpin/"/>
+            <updated>2011-12-20T00:00:00+00:00</updated>
+            <id>/blog/2011/12/20/happy-birthday-sculpin/</id>
+            <content type="html"><![CDATA[<p>The first commit to the Sculpin repository was made on December 20th, 2011.
+What a trip since then!</p>
+
+<p>Sculpin has always been a big fan of <a href="http://daringfireball.net/projects/markdown/">Markdown</a>. So this post was
+written in Markdown. :)</p>
+]]></content>
+        </entry>
+    </feed>

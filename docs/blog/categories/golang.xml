@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[Grow As A Developer]]></title>
+    <link href="/blog/categories/golang.xml" rel="self"/>
+    <link href="/"/>
+    <updated>2021-03-29T20:03:07+00:00</updated>
+    <id>/</id>
+        <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[What is GoLang?]]></title>
+            <link href="/blog/2021/03/25/what-is-golang/"/>
+            <updated>2021-03-25T00:00:00+00:00</updated>
+            <id>/blog/2021/03/25/what-is-golang/</id>
+            <content type="html"><![CDATA[<h1 id="hello-golang%2C-nice-to-meet-you%2C-i%27m-james">Hello Golang, nice to meet you, I'm James</h1>
+
+<p>So I have been meaning to write a blog for sometime, and I have been programming with PHP, Javascript coming up to 2 years. So I've been looking at learning a new language, and always wondered what it would be like to learn Golang.</p>
+
+<p><img src="../assets/images/go-gopher.jpg" height="239" width="580" title="Go gopher" alt="image of the Go Gopher"></p>
+
+<h1 id="what-is-golang%3F">What Is GoLang?</h1>
+
+<p>Go or as others would say Golang, is a an open source programming language that allows to build reliable and efficient software. Go was created by a team of developers at Google. They are <a href="https://en.wikipedia.org/wiki/Robert_Griesemer">Robert Griesemer</a>, <a href="https://en.wikipedia.org/wiki/Rob_Pike">Rob Pike</a> and <a href="https://en.wikipedia.org/wiki/Ken_Thompson">Ken Thompson</a>. Golang is a staticically and a strongly typed language</p>
+
+<p>--Go appeared in 2009 and its current version is 1.16.2.</p>
+
+<p>Resources
+https://en.wikipedia.org/wiki/Go_(programming_language)</p>
+]]></content>
+        </entry>
+    </feed>
