@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[Grow As A Developer]]></title>
-    <link href="https://bladedevleoper.github.io/grow-as-a-developer.io//atom.xml" rel="self"/>
+    <link href="https://bladedevleoper.github.io/grow-as-a-developer.io//blog/tags/development.xml" rel="self"/>
     <link href="https://bladedevleoper.github.io/grow-as-a-developer.io//"/>
-    <updated>2021-03-29T21:44:44+00:00</updated>
+    <updated>2021-03-29T21:45:43+00:00</updated>
     <id>https://bladedevleoper.github.io/grow-as-a-developer.io//</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
@@ -15,7 +15,7 @@
 
 <p>So I have been meaning to write a blog for sometime, and I have been programming with PHP, Javascript coming up to 2 years. So I've been looking at learning a new language, and always wondered what it would be like to learn Golang.</p>
 
-<p><img src="assets/images/go-gopher.jpg" height="239" width="580" title="Go gopher" alt="image of the Go Gopher"></p>
+<p><img src="/assets/images/go-gopher.jpg" height="239" width="580" title="Go gopher" alt="image of the Go Gopher"></p>
 
 <h1 id="what-is-golang%3F">What Is GoLang?</h1>
 
