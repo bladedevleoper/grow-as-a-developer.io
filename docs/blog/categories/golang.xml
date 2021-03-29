@@ -3,7 +3,7 @@
     <title><![CDATA[Grow As A Developer]]></title>
     <link href="https://bladedevleoper.github.io/grow-as-a-developer.io//blog/categories/Golang.xml" rel="self"/>
     <link href="https://bladedevleoper.github.io/grow-as-a-developer.io//"/>
-    <updated>2021-03-29T23:27:29+00:00</updated>
+    <updated>2021-03-29T23:29:02+00:00</updated>
     <id>https://bladedevleoper.github.io/grow-as-a-developer.io//</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
@@ -11,19 +11,19 @@
             <link href="https://bladedevleoper.github.io/grow-as-a-developer.io//blog/2021/03/25/what-is-golang/"/>
             <updated>2021-03-25T00:00:00+00:00</updated>
             <id>https://bladedevleoper.github.io/grow-as-a-developer.io//blog/2021/03/25/what-is-golang/</id>
-            <content type="html"><![CDATA[<h1 id="hello-golang%2C-nice-to-meet-you%2C-i%27m-james">Hello Golang, nice to meet you, I'm James</h1>
+            <content type="html"><![CDATA[<h1 id="hello-go%2C-nice-to-meet-you%2C-i%27m-james">Hello Go, nice to meet you, I'm James</h1>
 
-<p>So I have been meaning to write a blog for sometime, and I have been programming with PHP, Javascript coming up to 2 years. So I've been looking at learning a new language, and always wondered what it would be like to learn Golang.</p>
+<p>So I have been meaning to write a blog for sometime, and I have been programming with PHP, Javascript coming up to 2 years. So I've been looking at learning a new language, and always wondered what it would be like to learn Go.</p>
 
 <p><img src="https://bladedevleoper.github.io/grow-as-a-developer.io/assets/images/go-gopher.jpg" height="239" width="580" title="Go gopher" alt="image of the Go Gopher"></p>
 
-<h1 id="what-is-golang%3F">What Is Golang?</h1>
+<h1 id="what-is-go%3F">What Is Go?</h1>
 
-<p>Go or as others would say Golang, is a an open source programming language that allows to build reliable and efficient software. Go was created by a team of developers at Google. They are <a href="https://en.wikipedia.org/wiki/Robert_Griesemer">Robert Griesemer</a>, <a href="https://en.wikipedia.org/wiki/Rob_Pike">Rob Pike</a> and <a href="https://en.wikipedia.org/wiki/Ken_Thompson">Ken Thompson</a>. Golang is a staticically and a strongly typed language</p>
+<p>Go or as others would say Golang, is a an open source programming language that allows to build reliable and efficient software. Go was created by a team of developers at Google. They are <a href="https://en.wikipedia.org/wiki/Robert_Griesemer">Robert Griesemer</a>, <a href="https://en.wikipedia.org/wiki/Rob_Pike">Rob Pike</a> and <a href="https://en.wikipedia.org/wiki/Ken_Thompson">Ken Thompson</a>. Go is a staticically and a strongly typed language</p>
 
-<h1 id="what-can-golang-be-used-for%3F">What can Golang be used for?</h1>
+<h1 id="what-can-go-be-used-for%3F">What can Go be used for?</h1>
 
-<p>Golang can be used in many different ways:</p>
+<p>Go can be used in many different ways:</p>
 
 <ul>
     <li>
@@ -44,13 +44,13 @@
     describe the syntax with a simple intro of a package, hello world
 -->
 
-<h1 id="where-can-i-learn-golang%3F">Where Can I Learn Golang?</h1>
+<h1 id="where-can-i-learn-go%3F">Where Can I Learn Go?</h1>
 
 <p>There are a number of resources to start to learn Go:</p>
 
 <h6>Youtube</h6>
 
-<p>I will always search Youtube, but who doesn't right? I found the <a href="https://www.freecodecamp.org/">freecodecamp.org</a> <a href="https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ">youtube channel</a> to be a really good starting point. I had found a <a href="https://youtu.be/YS4e4q9oBaU">7 hour Golang video</a> created by Michael Van Sickle. For a Go beginner, I found this very informative, starting from the basic syntax and how to set your local environment up.</p>
+<p>I will always search Youtube, but who doesn't right? I found the <a href="https://www.freecodecamp.org/">freecodecamp.org</a> <a href="https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ">youtube channel</a> to be a really good starting point. I had found a <a href="https://youtu.be/YS4e4q9oBaU">7 hour Go video</a> created by Michael Van Sickle. For a Go beginner, I found this very informative, starting from the basic syntax and how to set your local environment up.</p>
 
 <p><strong>Please note</strong>, as of this videos creation the version of Go is at 1.14 , there is a newer version of Go which is 1.16 to download <a href="https://golang.org/dl/">follow</a> and pick your OS</p>
 
