@@ -3,7 +3,7 @@
     <title><![CDATA[Grow As A Developer]]></title>
     <link href="https://bladedevleoper.github.io/grow-as-a-developer.io//blog/tags/programming.xml" rel="self"/>
     <link href="https://bladedevleoper.github.io/grow-as-a-developer.io//"/>
-    <updated>2021-03-30T17:44:15+00:00</updated>
+    <updated>2021-03-30T17:46:50+00:00</updated>
     <id>https://bladedevleoper.github.io/grow-as-a-developer.io//</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
@@ -39,10 +39,21 @@
 
 <p>Like Python and PHP, Go too is a <a href="https://en.wikipedia.org/wiki/General-purpose_programming_language">general purpose language</a> which means it can be used in a wide variety of development tasks.</p>
 
-<!-- 
-    title: Syntax of Go
-    describe the syntax with a simple intro of a package, hello world
--->
+<h1 id="the-syntax-of-go">The Syntax of Go</h1>
+
+<p><code>
+package main</p>
+
+<p>import {
+    "fmt"</p>
+
+<pre><code>func main () {
+    fmt.Println("hello world")
+}
+</code></pre>
+
+<p>}
+</code></p>
 
 <h1 id="where-can-i-learn-go%3F">Where Can I Learn Go?</h1>
 
