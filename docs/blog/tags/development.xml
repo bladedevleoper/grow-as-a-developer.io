@@ -3,7 +3,7 @@
     <title><![CDATA[Grow As A Developer]]></title>
     <link href="https://bladedevleoper.github.io/grow-as-a-developer.io//blog/tags/development.xml" rel="self"/>
     <link href="https://bladedevleoper.github.io/grow-as-a-developer.io//"/>
-    <updated>2021-03-29T23:29:02+00:00</updated>
+    <updated>2021-03-30T17:43:03+00:00</updated>
     <id>https://bladedevleoper.github.io/grow-as-a-developer.io//</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
@@ -15,7 +15,7 @@
 
 <p>So I have been meaning to write a blog for sometime, and I have been programming with PHP, Javascript coming up to 2 years. So I've been looking at learning a new language, and always wondered what it would be like to learn Go.</p>
 
-<p><img src="https://bladedevleoper.github.io/grow-as-a-developer.io/assets/images/go-gopher.jpg" height="239" width="580" title="Go gopher" alt="image of the Go Gopher"></p>
+<p><img src="https://bladedevleoper.github.io/grow-as-a-developer.io/assets/images/go-gopher.jpg" style="border: solid 1px black" height="239" width="580" title="Go gopher" alt="image of the Go Gopher"></p>
 
 <h1 id="what-is-go%3F">What Is Go?</h1>
 
@@ -50,15 +50,15 @@
 
 <h6>Youtube</h6>
 
-<p>I will always search Youtube, but who doesn't right? I found the <a href="https://www.freecodecamp.org/">freecodecamp.org</a> <a href="https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ">youtube channel</a> to be a really good starting point. I had found a <a href="https://youtu.be/YS4e4q9oBaU">7 hour Go video</a> created by Michael Van Sickle. For a Go beginner, I found this very informative, starting from the basic syntax and how to set your local environment up.</p>
+<p>I will always search Youtube, but who doesn't right? I found <a href="https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ">freecodecamp.org youtube channel</a> to be a really good starting point. They had a <a href="https://youtu.be/YS4e4q9oBaU">7 hour Go video</a> created by Michael Van Sickle. For a Go beginner, I found this very informative, starting from the basic syntax and setting up your local environment.</p>
 
-<p><strong>Please note</strong>, as of this videos creation the version of Go is at 1.14 , there is a newer version of Go which is 1.16 to download <a href="https://golang.org/dl/">follow</a> and pick your OS</p>
+<p><strong>Please note</strong>, the Go version in the youtube video is version 1.14 , there is a newer version of Go which is 1.16 to download <a href="https://golang.org/dl/">follow</a> and pick your OS.</p>
 
-<p>Since Go 1.16 is released (February 2021), we can start to use go.mod, which allow is Go's dependency management. An following a project setup in the video, we do not have to use all the directories. I would advise to look at the following article on golang.org on how to <a href="https://golang.org/doc/code#Organization">organise your code</a></p>
+<p>Since Go version 1.16 release (February 2021), we can start to use go.mod, which is Go's dependency management. An following a project setup in the video, we do not require to use all the directories. I would advise to look at the following article on golang.org on how to <a href="https://golang.org/doc/code#Organization">organise your code</a></p>
 
 <h6>Go Documentation</h6>
 
-<p>The <a href="https://golang.org/doc/tutorial/getting-started">Golang.org</a> is another nice place to get started, where it takes you on a step by step through the Go language. If you want to pick up some extra reading on a particular section.</p>
+<p>The <a href="https://golang.org/doc/tutorial/getting-started">Golang.org</a> is another resource to get started, where it takes you on a step by step through the Go language. If you want to pick up some extra reading on a particular section. They have structured the documents for the Go language very well.</p>
 
 <h1 id="how-can-i-practice-go%3F">How can I practice Go?</h1>
 
