@@ -87,13 +87,20 @@
 
 <h1 id="the-syntax-of-go">The Syntax of Go</h1>
 
+<p>The Go syntax is very similar to Java or Javascript, with the dot notation. At the end of a line, we normally add a semi colon to mark an end of that line (preference in Javascript). In Go a line separator indincates the end of the statement.</p>
+
+<p>Now for those who come from a Java background, will notice the use of the function main. The main function acts as the entry point for our application, be it a cli or a web based application. In the main function we have the the following <code>fmt.Println("hello world")</code> fmt is a package which is apart of the main Go language, fmt is Go's string formatting package. This allows us to print stuff out.</p>
+
+<p>The keyword <code>package</code> is Go's namespace convention, which is the same concept in Java.</p>
+
 <pre>
     package main
 
     import {
         "fmt"
     }
-    //main entry point for the application
+
+    //main entry point of the application
     func main () {
         fmt.Println("hello world")
     }
