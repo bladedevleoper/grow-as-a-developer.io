@@ -205,6 +205,37 @@ to be bound to the package (private visibility), the package will then have to b
     }
 </pre>
 
+<h1 id="type-hinting-parameters-in-a-function">Type hinting parameters in a function</h1>
+
+<p>Go allows you to type hint your function parameters, which helps with readability and testing. I find type hinting to be very useful for reading code,
+it allows me to know the exact datatype that parameter is expecting when an argument is injected into the function.</p>
+
+<p>Let me provide an example:</p>
+
+<pre style="background-color:lightsteelblue; color: black;">
+    package main
+
+    import "fmt"
+   
+    
+    func main() {
+        firstName := "James"
+        lastName := "Jones"
+        
+        printFullName(firstName, lastName)
+    }
+
+    func printFullName (fName string, lName string) {
+        //concatenate the fName and lName to make fullName
+        fullName := fName + " " + lName
+        //print out fullName
+        fmt.Println(fullName)
+    }
+</pre>
+
+<p>We are utilising the <code>printFullName()</code> method to inject, <code>firstName</code> and <code>lastName</code> as arguments, for the function
+to print out the full name.</p>
+
 <h1 id="loops-in-go">Loops in Go</h1>
 
 <p>Loops in Go ain't like any other languages, where there are different types of loops. Such as <code>while</code>, <code>do while</code> and <code>foreach</code> to give an example.
