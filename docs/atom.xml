@@ -1,16 +1,239 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[Grow As A Developer]]></title>
-    <link href="https://bladedevleoper.github.io/grow-as-a-developer.io//atom.xml" rel="self"/>
-    <link href="https://bladedevleoper.github.io/grow-as-a-developer.io//"/>
-    <updated>2021-03-30T18:53:10+00:00</updated>
-    <id>https://bladedevleoper.github.io/grow-as-a-developer.io//</id>
+    <link href="https://bladedevleoper.github.io/grow-as-a-developer.io/atom.xml" rel="self"/>
+    <link href="https://bladedevleoper.github.io/grow-as-a-developer.io/"/>
+    <updated>2021-04-11T15:38:14+00:00</updated>
+    <id>https://bladedevleoper.github.io/grow-as-a-developer.io/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
+            <title type="html"><![CDATA[The Golang Syntax]]></title>
+            <link href="https://bladedevleoper.github.io/grow-as-a-developer.io/2021/04/11/the-go-syntax"/>
+            <updated>2021-04-11T00:00:00+00:00</updated>
+            <id>https://bladedevleoper.github.io/grow-as-a-developer.io/2021/04/11/the-go-syntax</id>
+            <content type="html"><![CDATA[<p>Hi all, here is the second installment of my Golang journey. My first blog post was an intro to the Go programming language, where I talked about various aspects of Go, beginning with its history, what Go can be used for and touched briefly on its syntax.</p>
+
+<p>So this post I'm going to expand on the Go Syntax, so lets dig in.</p>
+
+<h1 id="the-golang-syntax">The Golang Syntax</h1>
+
+<p>Go is not like your traditional OOP language (object orientated programming), however Go is a post-oop language,
+which borrows its structure from the Algol, Pascal and modula family.</p>
+
+<h5>Definition of Post-OOP</h5>
+
+<p><dt>
+    By definition, "post-object" programming languages provide both strong compile-time type checking below the basic level and strong runtime type checking above the basic level.
+</dt></p>
+
+<p>source: <a href="httsp://pages.swcp.com/raccoon/postobject.html">https://pages.swcp.com/raccoon/postobject.html</a></p>
+
+<h1 id="variables-in-go">Variables in Go</h1>
+
+<p>Go has different ways of defining variables, as Go can be statically or strongly typed. We can let the compiler determine the variable data type
+or we can provide a data type to the variable. Let me run you through the variable declaration in Go:</p>
+
+<h5>Strongly Typed Variables</h5>
+
+<p>In Go we can define a variable with the <code>var</code> keyword. This follows with the name of the variable, and then we provide a data type to the variable
+for example <code>string</code>.</p>
+
+<p>A strongly typed variable make code readability much easier. As it takes the guess work out of the equation when debugging. If older code base does not have any unit tests
+then tests can also be made to cover code and will aid in writing tests for the functions.</p>
+
+<pre style="background-color:lightsteelblue; color: black; padding:5px;">
+package main
+
+import "fmt"
+
+func main () {
+    var name string = "James"
+    fmt.Println(name)
+}
+</pre>
+
+<p>This will output the following text in the console:</p>
+
+<pre style="background-color:lightsteelblue; color: black;">
+    James
+</pre>
+
+<h5>Statically Typed Variables</h5>
+
+<p>The Go compiler can also determine the data type of the variable when it is compiled. There are two ways that we can declare them.</p>
+
+<h6>With the var keyword</h6>
+
+<p>We can declare variables still by using the <code>var</code> keyword followed by the name of the variable. If we are not declaring the variable datatype. we must
+assign a value to that variable, so that the Go compiler can determine its datatype.</p>
+
+<pre style="background-color:lightsteelblue; color: black; padding:5px;">
+    package main
+    import "fmt"
+    func main() {
+        
+        var name = "James"
+        fmt.Println(name)
+    }
+</pre>
+
+<p>As the example above, we still get the same outcome.</p>
+
+<pre style="background-color:lightsteelblue; color: black;">
+    James
+</pre>
+
+<h6>The Shorthand syntax</h6>
+
+<p>If you have read some Go syntax, you may have come across the following syntax <code> := </code>?
+Go has defined a way to shorten a variable declaration with a single colon (:) and, an equals sign (=). As the above example, we are not
+including the <code>var</code> keyword. Instead, we use the following <code>:=</code>.</p>
+
+<p>Example:</p>
+
+<pre style="background-color:lightsteelblue; color: black; padding:5px;">
+    package main
+    import "fmt"
+    func main() {
+        name := "James"
+        fmt.Println(name)
+    }
+</pre>
+
+<p>We still get the same outcome.</p>
+
+<pre style="background-color:lightsteelblue; color: black;">
+    James
+</pre>
+
+<p>The Go compiler will determine what datatype to assign the variable.</p>
+
+<h1 id="functions-in-go">Functions in Go</h1>
+
+<p>Functions in Go are the same in any other C programming language. They start with the keyword <cdoe>func</code> and then provide a name
+to the function, this will follow with an opening and closing parenthesis <code>()</code>. The function will have an opening curly brace <code>{</code>,
+and a closing curly brace <code>}</code>, anything between the curly braces will then be executed in that function.</p>
+
+<p>An example of a structure of a function in Go</p>
+
+<pre style="background-color:lightsteelblue; color: black;">
+    func doSomething() {
+        //do something here
+    }
+</pre>
+
+<h1 id="some-guidance-on-naming-conventions-for-functions-in-go.">Some guidance on naming conventions for functions in Go.</h1>
+
+<h6>Uppercase function naming</h6>
+
+<p>Naming conventions of functions in Go determine the visibility. If the first letter of the function name is with a uppercase letter, this then
+means the function is exported to other packages.</p>
+
+<p>example:</p>
+
+<pre style="background-color:lightsteelblue; color: black;">
+    package listener
+    
+    func Listener() {
+        //will listen out for some event
+    }
+</pre>
+
+<p>We have created a Listener function, when we compile the application this function will then be exported,
+and it will be visible on the outside of this package.</p>
+
+<h6>Other Naming Conventions</h6>
+
+<p>Throughout the programming world you would have come across a few conventions, camel case, snake case or even kebab case.
+In Go, the naming convention that is mostly used is camel case, for example: <code>nameOfFunction</code>. This will allow the function
+to be bound to the package (private visibility), the package will then have to be imported to use its methods and once the package is initialised.</p>
+
+<p>example:</p>
+
+<pre style="background-color:lightsteelblue; color: black;">
+    package helloworld
+    import "fmt"
+
+    func helloWorld() {
+        fmt.Println("hello world")
+    }
+</pre>
+
+<h1 id="loops-in-go">Loops in Go</h1>
+
+<p>Loops in Go ain't like any other languages, where there are different types of loops. Such as <code>while</code>, <code>do while</code> and <code>foreach</code> to give an example.
+Go actually has one loop which is the <code>for</code> loop. The <code>for</code> loop does have two purposes within the Go programming language.</p>
+
+<h6>The traditional for loop</h6>
+
+<p>As many other programming languages, you would have seen the <code>for</code> loop. Now the for loops can be used to iterate over arrays.</p>
+
+<p>Example:</p>
+
+<pre style="background-color:lightsteelblue; color: black;">
+    package main
+
+    import "fmt"
+
+    func main() {
+        //assigning 5 integers to the data array
+        data := []int{1,2,3,4,5}
+        //loop over the data array and print out each entry
+        for i := 0; i < len(data); i++ {
+            fmt.Println(data[i])
+        }
+    }
+</pre>
+
+<p>As the example above shows, we are initialising the loop to start from 0 and then its condition if <code>i</code> is less than the
+side of the <code>data</code> array, then we are incrementing <code>i</code> on each iteration. With the traditional <code>for</code> loop, you
+would normally surround the loop syntax with parenthesis, there are none, just the curly braces to outline what the loop will perform.</p>
+
+<h6>For loop being used as a while loop?</h6>
+
+<p>Yes, you read that correct, Go has made the ability to utilise the <code>for</code> loop as a while loop. We don't have the initiliser or the incrementer,
+when the <code>for</code> is being used as the while loop.</p>
+
+<p>Let me show you:</p>
+
+<pre style="background-color:lightsteelblue; color: black;">
+    package main
+
+    import "fmt"
+
+    func main() {
+        //assigning 5 integers to the data array
+        data := []int{1,2,3,4,5}
+        //acting as an initiliser
+        i := 0
+        //loop over the data array and print out each entry
+        for i < len(data) {
+            fmt.Println(data[i])
+            i++
+        }
+    }
+</pre>
+
+<p>We have removed the initialiser and the incrementer to transform the <code>for</code> loop into a <code>while</code> loop. In Go, they have
+not used the keyword <code>while</code> but instead just gone plain with the <code>for</code> keyword, I believe this makes it easier to remember
+syntax.</p>
+
+<p>As both loop examples show, they will produce the same output:</p>
+
+<pre style="background-color:lightsteelblue; color: black;">
+    1
+    2
+    3
+    4
+    5
+</pre>
+]]></content>
+        </entry>
+            <entry>
             <title type="html"><![CDATA[What is Golang?]]></title>
-            <link href="https://bladedevleoper.github.io/grow-as-a-developer.io//blog/2021/03/25/what-is-golang/"/>
+            <link href="https://bladedevleoper.github.io/grow-as-a-developer.io/2021/03/25/what-is-golang"/>
             <updated>2021-03-25T00:00:00+00:00</updated>
-            <id>https://bladedevleoper.github.io/grow-as-a-developer.io//blog/2021/03/25/what-is-golang/</id>
+            <id>https://bladedevleoper.github.io/grow-as-a-developer.io/2021/03/25/what-is-golang</id>
             <content type="html"><![CDATA[<h1 id="hello-go%2C-nice-to-meet-you%2C-i%27m-james">Hello Go, nice to meet you, I'm James</h1>
 
 <p>So I have been meaning to write a blog for sometime, and I have been programming with PHP, Javascript coming up to 2 years. So I've been looking at learning a new language, and always wondered what it would be like to learn Go.</p>

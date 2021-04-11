@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /blog/tags/
 Disallow: /blog/categories/
 
-Sitemap: https://bladedevleoper.github.io/grow-as-a-developer.io//sitemap.xml
+Sitemap: https://bladedevleoper.github.io/grow-as-a-developer.io/sitemap.xml

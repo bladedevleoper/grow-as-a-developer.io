@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://bladedevleoper.github.io/grow-as-a-developer.io/</loc>
-    <lastmod>2021-03-30</lastmod>
+    <loc>https://bladedevleoper.github.io/grow-as-a-developer.io</loc>
+    <lastmod>2021-04-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
     <url>
-    <loc>https://bladedevleoper.github.io/grow-as-a-developer.io//blog/2021/03/25/what-is-golang/</loc>
+    <loc>https://bladedevleoper.github.io/grow-as-a-developer.io/2021/04/11/the-go-syntax</loc>
+    <lastmod>2021-04-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+    <url>
+    <loc>https://bladedevleoper.github.io/grow-as-a-developer.io/2021/03/25/what-is-golang</loc>
     <lastmod>2021-03-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
